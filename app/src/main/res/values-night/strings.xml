@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string_edittext_code_article">Cod. Articulo</string>
+    <string name="string_hint_bar_code">DUN</string>
+    <string name="string_text_view_update_view">Data Description</string>
+    <string name="string_text_view_fill_update_view">************************************************************</string>
+    <string name="datos_producto">Informacion Producto</string>
+
+</resources>

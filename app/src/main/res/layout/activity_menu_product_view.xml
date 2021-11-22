@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_relative_layout_register_product"
+    tools:context=".ABMProducts.view.MenuProductView"
+    android:id="@+id/constraint_layout_menu_product_view">
+
+    <LinearLayout
+        android:id="@+id/product_manage_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title_product_manage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/string_title_product_manage"
+            android:textSize="@dimen/title_product_manage"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_register_new_product"
+                style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_new_product_product"
+                android:layout_below="@id/title_product_manage"
+                app:icon="@drawable/ic_baseline_add_box_24"
+                android:layout_gravity="center_vertical">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_find_product"
+                style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_btn_find_product_product"
+                app:icon="@drawable/ic_baseline_search_24"></Button>
+
+            <Button
+                android:id="@+id/btn_update_product"
+                style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                android:text="@string/string_update_product_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_baseline_update_24"></Button>
+
+            <Button
+                android:id="@+id/btn_show_list_product"
+                style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string_list_product_product"
+                app:icon="@drawable/ic_baseline_list_24"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"></LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
