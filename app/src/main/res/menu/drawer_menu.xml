@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/string_title_menudrawer_abm_gestion">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_abm_products"
+                    android:title="@string/string_title_abm_products"
+                    android:checked="true"
+                    android:icon="@drawable/ic_baseline_settings_ethernet_24">
+                </item>
+                <item android:id="@+id/nav_abm_product_type"
+                    android:title="@string/string_title_abm_productTitle"
+                    android:icon="@drawable/ic_baseline_settings_ethernet_24">
+                </item>
+                <item android:id="@+id/nav_abm_um"
+                    android:title="@string/string_title_abm_um"
+                    android:icon="@drawable/ic_baseline_settings_ethernet_24">
+                </item>
+            </group>
+        </menu>
+    </item>
+</menu>

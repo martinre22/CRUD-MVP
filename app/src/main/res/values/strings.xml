@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ABM-Products-MVP-SQLite</string>
+    <string name="string_title_menudrawer_abm_gestion">ABM GESTION</string>
+    <string name="string_title_abmProduct_new_product">Nuevo Producto</string>
+    <string name="string_title_abmProduct_update_product">Actualizar producto</string>
+    <string name="string_title_abm_products">ABM Productos</string>
+    <string name="string_title_abm_productTitle">ABM Tipo Producto</string>
+    <string name="string_title_abm_um">ABM Um</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="string_title_product_manage">Gestion Productos</string>
+    <string name="btn_product_register">Registrar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_product_register_fragment">Registrar Producto</string>
+    <string name="string_edittext_code_article">Cod. Articulo</string>
+    <string name="string_hint_bar_code">DUN</string>
+    <string name="string_hint_article_descriptiion">Descripcion</string>
+    <string name="string_btn_find_product_product">Buscar</string>
+    <string name="string_update_product_product">Actualizar</string>
+    <string name="string_new_product_product">Registrar</string>
+    <string name="string_list_product_product">Listado</string>
+    <string name="string_edit_text_package_per_base">Base</string>
+    <string name="string_edit_text_package_height">Altura(cm)</string>
+    <string name="string_button_register_product">Registrar</string>
+    <string name="title_product_find_fragment">Consulta Producto</string>
+    <string name="string_button_find_product">Consultar</string>
+    <string name="string_description_card_view">Codigo Articulo</string>
+    <string name="string_code_product_card_view">Codigo Articulo</string>
+    <string name="title_product_list_view">Productos</string>
+    <string name="title_product_update_fragment">Actualizar Producto</string>
+
+    <string name="string_button_update_product">Actualizar</string>
+    <string name="string_text_view_update_view">Data Description</string>
+    <string name="string_text_view_fill_update_view">**********************************************************</string>
+    <string name="datos_producto">Informacion Producto</string>
+</resources>

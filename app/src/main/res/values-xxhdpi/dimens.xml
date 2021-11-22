@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_nav_header">18sp</dimen>
+    <dimen name="title_product_manage">24sp</dimen>
+    <dimen name="padding_nav_header">6dp</dimen>
+    <dimen name="height_nav_header">150dp</dimen>
+    <dimen name="padding_relative_layout_content_fragment">6dp</dimen>
+    <dimen name="padding_top_relative_layout_content_fragment">3dp</dimen>
+    <dimen name="title_text_size_product_register_fragment">16sp</dimen>
+    <dimen name="padding_relative_layout_register_product">6dp</dimen>
+    <dimen name="margin_bottom_title_register_product">6dp</dimen>
+
+    <dimen name="size_button_menu_product_view">15sp</dimen>
+
+    <dimen name="size_title_abm">14sp</dimen>
+    <dimen name="size_edit_text_abm">14sp</dimen>
+    <dimen name="size_text_button_abm">14sp</dimen>
+    <dimen name="size_height_space_abm">6dp</dimen>
+    <dimen name="margin_buttons_abm_product_register">8dp</dimen>
+    <dimen name="size_text_view_abm">18sp</dimen>
+    <dimen name="size_text_card_view_list_product">12sp</dimen>
+    <dimen name="padding_card_view_list_product">2dp</dimen>
+    <dimen name="size_height_space_card_view_list_product">4dp</dimen>
+    <dimen name="size_text_view_detail_card_view_list_product">8sp</dimen>
+    <dimen name="size_text_navigation_drawer">14sp</dimen>
+    <dimen name="size_edit_text_description_product_update_view">16sp</dimen>
+    <dimen name="padding_find_product_view_linear_layout">2dp</dimen>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_item_product_list"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout_card_view_item_product_list"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/padding_card_view_list_product"
+        android:paddingRight="@dimen/padding_card_view_list_product">
+
+        <LinearLayout
+            style="@style/space_card_view_vertical"
+            android:background="@color/purple_500"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_card_view_list_product"
+            android:paddingRight="@dimen/padding_card_view_list_product">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_card_view_list_product">
+                    <TextView
+                        style="@style/card_text_view_style_list_product"
+                        android:text="@string/string_code_product_card_view"
+                        android:textSize="@dimen/size_text_view_detail_card_view_list_product">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_view_code_product_card_view"
+                        style="@style/card_text_view_style_list_product"
+                        android:text="codigo">
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_card_view_list_product">
+                    <TextView
+                        style="@style/card_text_view_style_list_product"
+                        android:text="@string/string_description_card_view"
+                        android:textSize="@dimen/size_text_view_detail_card_view_list_product">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_view_product_description_card_view"
+                        style="@style/card_text_view_style_list_product"
+                        android:text="descripcion">
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
